@@ -4,7 +4,6 @@ import sys,os##
 piton = os.path.basename(sys.argv[0])
 
 if len(sys.argv) < 2:
-	print '\n\x20\x20[*] Usage: '+piton+' <ipaddress:port>\n'
 	sys.exit()
 
 ipaddr = sys.argv[1]
